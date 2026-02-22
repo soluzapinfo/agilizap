@@ -3,16 +3,22 @@
 Painel de atendimento em tempo real para WhatsApp Web.
 
 ## Status
-Versão: 0.1.0  
-Ambiente: Homologação
+Versão: 0.1.0
 
-## Funcionalidades atuais
-- Painel em tela cheia
-- Cards organizados
-- Tema dark
-- Estrutura pronta para evolução
+Desenvolvi um Painel NOC Full Screen para Provedores de Internet
 
-## Próximos passos
-- Observer de mensagens
-- Classificação GRP / ATV
-- Controle de tempo e status
+Muitos provedores utilizam WhatsApp como principal canal de atendimento.
+
+O problema?
+Falta de organização, controle de SLA e visão operacional.
+
+Então eu criei um painel que:
+
+✅ Separa conversas ativas
+✅ Organiza ativações
+✅ Controla SLA
+✅ Mostra pendências
+✅ Exibe alertas
+✅ Centraliza agenda operacional
+
+Ideal para equipes de NOC e atendimento técnico.

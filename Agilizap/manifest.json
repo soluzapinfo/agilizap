@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Agilizap",
+  "description": "Painel de atendimento para WhatsApp Web",
+  "version": "0.1.3",
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": [
+        "src/utils/version.js",
+        "src/content/observer.js",
+		"src/content/observer-agd.js",
+		"src/content/observer-pda.js",
+		"src/content/observer-alt.js",
+        "src/ui/panel.js",
+
+        "src/ui/modules/card-agd.js",
+        "src/ui/modules/card-pda.js",
+        "src/ui/modules/card-alt.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
